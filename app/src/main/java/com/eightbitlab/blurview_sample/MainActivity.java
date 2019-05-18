@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupBlurView() {
+        // seekBar的progress最大是100。step * radius = 100
         final float radius = 25f;
         final float minBlurRadius = 10f;
         final float step = 4f;

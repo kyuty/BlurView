@@ -4,6 +4,9 @@ import android.graphics.Canvas;
 
 interface BlurController extends BlurViewFacade {
 
+    /**
+     * 值越大，图片就scale得越小
+     */
     float DEFAULT_SCALE_FACTOR = 8f;
     float DEFAULT_BLUR_RADIUS = 16f;
 
